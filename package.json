@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_prisa",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proyecto de PRISA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dan10vaz/proyectoPrisa.git"
+  },
+  "author": "Daniel Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan10vaz/proyectoPrisa/issues"
+  },
+  "homepage": "https://github.com/Dan10vaz/proyectoPrisa#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
